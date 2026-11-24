@@ -1,0 +1,53 @@
+[
+  {
+    "op": "query",
+    "ns": "comercial.clientes",
+    "command": {
+      "find": "clientes",
+      "filter": {
+        "ciudad": "Culiacán"
+      }
+    },
+    "ts": {
+      "$date": "2026-11-24T02:22:35.282Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "update",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 3
+      },
+      "u": {
+        "$set": {
+          "rfc": "GAMA780912XYZ"
+        }
+      }
+    },
+    "ts": {
+      "$date": "2026-11-24T02:22:35.286Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "remove",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 2
+      }
+    },
+    "ts": {
+      "$date": "2026-11-24T02:22:35.290Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  }
+]

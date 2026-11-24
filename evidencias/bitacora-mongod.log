@@ -1,0 +1,1082 @@
+{"t":{"$date":"2026-11-24T02:22:22.173+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+
+{"t":{"$date":"2026-11-24T02:22:22.174+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":21},"outgoing":{"minWireVersion":6,"maxWireVersion":21},"isInternalClient":true}}}
+
+{"t":{"$date":"2026-11-24T02:22:22.175+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+
+{"t":{"$date":"2026-11-24T02:22:22.253+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+
+{"t":{"$date":"2026-11-24T02:22:22.253+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+
+{"t":{"$date":"2026-11-24T02:22:22.253+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+
+{"t":{"$date":"2026-11-24T02:22:22.253+00:00"},"s":"I",  "c":"TENANT_M", "id":7091600, "ctx":"main","msg":"Starting TenantMigrationAccessBlockerRegistry"}
+
+{"t":{"$date":"2026-11-24T02:22:22.254+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":118,"port":27017,"dbPath":"/tmp/lab/db","architecture":"64-bit","host":"vm"}}
+
+{"t":{"$date":"2026-11-24T02:22:22.254+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"7.0.34","gitVersion":"nogitversion","openSSLVersion":"OpenSSL 3.6.5 29 Sep 2026","modules":[],"allocator":"tcmalloc","environment":{"distarch":"x86_64","target_arch":"x86_64"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:22.254+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"24.04"}}}
+
+{"t":{"$date":"2026-11-24T02:22:22.254+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"config":"/tmp/lab/mongod.conf","net":{"bindIp":"127.0.0.1","port":27017},"security":{"authorization":"enabled"},"storage":{"dbPath":"/tmp/lab/db"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:22.255+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+
+{"t":{"$date":"2026-11-24T02:22:22.257+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=1483M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+
+{"t":{"$date":"2026-11-24T02:22:23.785+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1795486943,"ts_usec":784538,"thread":"118:0x7f3887049300","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.785+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1795486943,"ts_usec":785069,"thread":"118:0x7f3887049300","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.785+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1795486943,"ts_usec":785085,"thread":"118:0x7f3887049300","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.785+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1795486943,"ts_usec":785105,"thread":"118:0x7f3887049300","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery was completed successfully and took 1ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.791+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1534}}
+
+{"t":{"$date":"2026-11-24T02:22:23.791+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.853+00:00"},"s":"W",  "c":"CONTROL",  "id":22138,   "ctx":"initandlisten","msg":"You are running this process as the root user, which is not recommended","tags":["startupWarnings"]}
+
+{"t":{"$date":"2026-11-24T02:22:23.853+00:00"},"s":"W",  "c":"CONTROL",  "id":22184,   "ctx":"initandlisten","msg":"Soft rlimits for open file descriptors too low","attr":{"currentValue":20000,"recommendedMinimum":64000},"tags":["startupWarnings"]}
+
+{"t":{"$date":"2026-11-24T02:22:23.856+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"admin.system.version","uuidDisposition":"provided","uuid":{"uuid":{"$uuid":"8c21b3f4-53a7-4f2a-8c71-093a8bc234aa"}},"options":{"uuid":{"$uuid":"8c21b3f4-53a7-4f2a-8c71-093a8bc234aa"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.868+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"8c21b3f4-53a7-4f2a-8c71-093a8bc234aa"}},"namespace":"admin.system.version","index":"_id_","ident":"index-1--2639484252837256572","collectionIdent":"collection-0--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:23.870+00:00"},"s":"I",  "c":"REPL",     "id":20459,   "ctx":"initandlisten","msg":"Setting featureCompatibilityVersion","attr":{"newVersion":"7.0"}}
+
+{"t":{"$date":"2026-11-24T02:22:23.871+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"7.0","context":"setFCV"}}
+
+{"t":{"$date":"2026-11-24T02:22:23.871+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":21},"outgoing":{"minWireVersion":6,"maxWireVersion":21},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.871+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":21,"maxWireVersion":21},"outgoing":{"minWireVersion":21,"maxWireVersion":21},"isInternalClient":true}}}
+
+{"t":{"$date":"2026-11-24T02:22:23.871+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"7.0","context":"startup"}}
+
+{"t":{"$date":"2026-11-24T02:22:23.871+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+
+{"t":{"$date":"2026-11-24T02:22:23.872+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+
+{"t":{"$date":"2026-11-24T02:22:23.872+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+
+{"t":{"$date":"2026-11-24T02:22:23.873+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/tmp/lab/db/diagnostic.data"}}
+
+{"t":{"$date":"2026-11-24T02:22:24.730+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"local.startup_log","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"e8e367ec-a331-460b-85df-f306e318ff8b"}},"options":{"capped":true,"size":10485760}}}
+
+{"t":{"$date":"2026-11-24T02:22:24.829+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"e8e367ec-a331-460b-85df-f306e318ff8b"}},"namespace":"local.startup_log","index":"_id_","ident":"index-3--2639484252837256572","collectionIdent":"collection-2--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:24.829+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+
+{"t":{"$date":"2026-11-24T02:22:24.829+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+
+{"t":{"$date":"2026-11-24T02:22:24.832+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+
+{"t":{"$date":"2026-11-24T02:22:24.832+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"127.0.0.1"}}
+
+{"t":{"$date":"2026-11-24T02:22:24.832+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+
+{"t":{"$date":"2026-11-24T02:22:24.832+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"Transport layer setup":"0 ms","Run initial syncer crash recovery":"0 ms","Create storage engine lock file in the data directory":"0 ms","Get metadata describing storage engine":"0 ms","Create storage engine":"1594 ms","Write current PID to file":"0 ms","Write a new metadata for storage engine":"0 ms","Initialize FCV before rebuilding indexes":"0 ms","Drop abandoned idents and get back indexes that need to be rebuilt or builds that need to be restarted":"0 ms","Rebuild indexes for collections":"0 ms","Load cluster parameters from disk for a standalone":"1 ms","Build user and roles graph":"0 ms","Set up the background thread pool responsible for waiting for opTimes to be majority committed":"1 ms","Initialize information needed to make a mongod instance shard aware":"0 ms","Start up the replication coordinator":"0 ms","Start transport layer":"1 ms","_initAndListen total elapsed time":"2578 ms"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:25.099+00:00"},"s":"I",  "c":"COMMAND",  "id":51803,   "ctx":"LogicalSessionCacheRefresh","msg":"Slow query","attr":{"type":"command","ns":"config.system.sessions","command":{"listIndexes":"system.sessions","cursor":{},"$db":"config"},"numYields":0,"ok":0,"errMsg":"ns does not exist: config.system.sessions","errName":"NamespaceNotFound","errCode":26,"reslen":134,"locks":{"FeatureCompatibilityVersion":{"acquireCount":{"r":1}},"Global":{"acquireCount":{"r":1}}},"storage":{},"cpuNanos":351048,"protocol":"op_msg","durationMillis":172}}
+
+{"t":{"$date":"2026-11-24T02:22:25.100+00:00"},"s":"I",  "c":"COMMAND",  "id":51803,   "ctx":"LogicalSessionCacheReap","msg":"Slow query","attr":{"type":"command","ns":"config.system.sessions","command":{"listIndexes":"system.sessions","cursor":{},"$db":"config"},"numYields":0,"ok":0,"errMsg":"ns does not exist: config.system.sessions","errName":"NamespaceNotFound","errCode":26,"reslen":134,"locks":{"FeatureCompatibilityVersion":{"acquireCount":{"r":1}},"Global":{"acquireCount":{"r":1}}},"storage":{},"cpuNanos":436288,"protocol":"op_msg","durationMillis":172}}
+
+{"t":{"$date":"2026-11-24T02:22:25.103+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"44f3f79d-5467-47cc-b6c6-aca9853397a3"}},"options":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:25.104+00:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
+
+{"t":{"$date":"2026-11-24T02:22:25.111+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"LogicalSessionCacheRefresh","msg":"Added oplog entry for create to transaction","attr":{"namespace":"config.$cmd","uuid":{"uuid":{"$uuid":"44f3f79d-5467-47cc-b6c6-aca9853397a3"}},"object":{"create":"system.sessions","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:25.111+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"LogicalSessionCacheRefresh","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"config.$cmd","uuid":{"uuid":{"$uuid":"44f3f79d-5467-47cc-b6c6-aca9853397a3"}},"object":{"createIndexes":"system.sessions","v":2,"key":{"lastUse":1},"name":"lsidTTLIndex","expireAfterSeconds":1800}}}
+
+{"t":{"$date":"2026-11-24T02:22:25.176+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"44f3f79d-5467-47cc-b6c6-aca9853397a3"}},"namespace":"config.system.sessions","index":"_id_","ident":"index-5--2639484252837256572","collectionIdent":"collection-4--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:25.176+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"44f3f79d-5467-47cc-b6c6-aca9853397a3"}},"namespace":"config.system.sessions","index":"lsidTTLIndex","ident":"index-6--2639484252837256572","collectionIdent":"collection-4--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:28.090+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43066","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"321e90f4-e402-4ff1-8d48-078127a2f803"}},"connectionId":1,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:28.093+00:00"},"s":"I",  "c":"ACCESS",   "id":20248,   "ctx":"conn1","msg":"note: no users configured in admin.system.users, allowing localhost access"}
+
+{"t":{"$date":"2026-11-24T02:22:28.093+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"127.0.0.1:43066","client":"conn1","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.093+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn1","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43066","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.100+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1595b2f1-e9a3-49ac-8264-1010809eb080"}},"connectionId":2,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:28.101+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn2","msg":"client metadata","attr":{"remote":"127.0.0.1:43072","client":"conn2","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.101+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn2","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43072","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.112+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn2","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":11}}
+
+{"t":{"$date":"2026-11-24T02:22:28.140+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43076","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"28bf41ef-674a-4059-8620-a48df0078b77"}},"connectionId":3,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:28.140+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43090","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"eb9a82ea-27b7-4cf1-a984-404a4af1ff8e"}},"connectionId":4,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:28.142+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"69d14434-5d6d-43fd-b374-1da6177ce459\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.143+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn3","msg":"client metadata","attr":{"remote":"127.0.0.1:43076","client":"conn3","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.143+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn3","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43076","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.144+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn4","msg":"client metadata","attr":{"remote":"127.0.0.1:43090","client":"conn4","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.144+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn4","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43090","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.146+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"39bea9be-96e0-4569-9a81-293230054481\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.149+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn4","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: 1, featureCompatibilityVersion: 1, lsid: { id: UUID(\"f6ab7f9b-8ab9-4b7d-a0da-77d14eff950c\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.372+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn4","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":228}}
+
+{"t":{"$date":"2026-11-24T02:22:28.392+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn4","msg":"createCollection","attr":{"namespace":"admin.system.users","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"3dee427b-6896-4a4e-95e0-fdeb64560504"}},"options":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.395+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"conn4","msg":"Added oplog entry for create to transaction","attr":{"namespace":"admin.$cmd","uuid":{"uuid":{"$uuid":"3dee427b-6896-4a4e-95e0-fdeb64560504"}},"object":{"create":"system.users","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.395+00:00"},"s":"I",  "c":"REPL",     "id":7360100, "ctx":"conn4","msg":"Added oplog entry for createIndexes to transaction","attr":{"namespace":"admin.$cmd","uuid":{"uuid":{"$uuid":"3dee427b-6896-4a4e-95e0-fdeb64560504"}},"object":{"createIndexes":"system.users","name":"user_1_db_1","key":{"user":1,"db":1},"unique":true,"v":2}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.397+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn4","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"3dee427b-6896-4a4e-95e0-fdeb64560504"}},"namespace":"admin.system.users","index":"_id_","ident":"index-8--2639484252837256572","collectionIdent":"collection-7--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:28.397+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn4","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"3dee427b-6896-4a4e-95e0-fdeb64560504"}},"namespace":"admin.system.users","index":"user_1_db_1","ident":"index-9--2639484252837256572","collectionIdent":"collection-7--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:28.438+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43094","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04433cdb-c723-451e-81d0-017812d620af"}},"connectionId":5,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-24T02:22:28.453+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn5","msg":"client metadata","attr":{"remote":"127.0.0.1:43094","client":"conn5","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.453+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn5","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43094","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.456+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"de162481-4197-412e-8292-d964b6fb5be7"}},"connectionId":6,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-24T02:22:28.457+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn6","msg":"client metadata","attr":{"remote":"127.0.0.1:43106","client":"conn6","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.459+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn6","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:28.472+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn6","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43106","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":12278,"summary":{"0":{"step":1,"step_total":2,"duration_micros":57},"1":{"step":2,"step_total":2,"duration_micros":20}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.477+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn3","msg":"Connection ended","attr":{"remote":"127.0.0.1:43076","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"28bf41ef-674a-4059-8620-a48df0078b77"}},"connectionId":3,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-24T02:22:28.477+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn1","msg":"Connection ended","attr":{"remote":"127.0.0.1:43066","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"321e90f4-e402-4ff1-8d48-078127a2f803"}},"connectionId":1,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:28.477+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn2","msg":"Connection ended","attr":{"remote":"127.0.0.1:43072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1595b2f1-e9a3-49ac-8264-1010809eb080"}},"connectionId":2,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:28.477+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn4","msg":"Connection ended","attr":{"remote":"127.0.0.1:43090","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"eb9a82ea-27b7-4cf1-a984-404a4af1ff8e"}},"connectionId":4,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:28.481+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn6","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":9}}
+
+{"t":{"$date":"2026-11-24T02:22:28.512+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn6","msg":"createCollection","attr":{"namespace":"comercial.clientes","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"96d115fe-4614-44a4-b1ab-8af5d93feaa9"}},"options":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.517+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"conn6","msg":"Added oplog entry for create to transaction","attr":{"namespace":"comercial.$cmd","uuid":{"uuid":{"$uuid":"96d115fe-4614-44a4-b1ab-8af5d93feaa9"}},"object":{"create":"clientes","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:28.517+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn6","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"96d115fe-4614-44a4-b1ab-8af5d93feaa9"}},"namespace":"comercial.clientes","index":"_id_","ident":"index-11--2639484252837256572","collectionIdent":"collection-10--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:28.522+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn5","msg":"Connection ended","attr":{"remote":"127.0.0.1:43094","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"04433cdb-c723-451e-81d0-017812d620af"}},"connectionId":5,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:28.523+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn6","msg":"Connection ended","attr":{"remote":"127.0.0.1:43106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"de162481-4197-412e-8292-d964b6fb5be7"}},"connectionId":6,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:29.396+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43112","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2ff737ed-5b47-4beb-9261-e6400ee18895"}},"connectionId":7,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:29.417+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn7","msg":"client metadata","attr":{"remote":"127.0.0.1:43112","client":"conn7","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.418+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn7","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43112","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.431+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43120","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"92d0bfcc-a2e4-4e7c-b618-5668c325019c"}},"connectionId":8,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:29.435+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn8","msg":"client metadata","attr":{"remote":"127.0.0.1:43120","client":"conn8","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.435+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn8","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:29.455+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn8","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43120","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":19267,"summary":{"0":{"step":1,"step_total":2,"duration_micros":126},"1":{"step":2,"step_total":2,"duration_micros":62}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.488+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn8","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":33}}
+
+{"t":{"$date":"2026-11-24T02:22:29.518+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43136","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6ee0b918-80c2-45c3-a8f0-e5851813d1da"}},"connectionId":9,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:29.518+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43150","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ed753877-7353-42a5-96cc-f0980e3f0c7e"}},"connectionId":10,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:29.522+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn9","msg":"client metadata","attr":{"remote":"127.0.0.1:43136","client":"conn9","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.523+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn9","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:29.523+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn10","msg":"client metadata","attr":{"remote":"127.0.0.1:43150","client":"conn10","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.524+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn10","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:29.791+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn9","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43136","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":268483,"summary":{"0":{"step":1,"step_total":2,"duration_micros":30},"1":{"step":2,"step_total":2,"duration_micros":24}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.792+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn10","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43150","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":267991,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:29.793+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn10","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
+
+{"t":{"$date":"2026-11-24T02:22:29.814+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn7","msg":"Connection ended","attr":{"remote":"127.0.0.1:43112","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2ff737ed-5b47-4beb-9261-e6400ee18895"}},"connectionId":7,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:29.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn10","msg":"Connection ended","attr":{"remote":"127.0.0.1:43150","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"ed753877-7353-42a5-96cc-f0980e3f0c7e"}},"connectionId":10,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:29.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn9","msg":"Connection ended","attr":{"remote":"127.0.0.1:43136","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6ee0b918-80c2-45c3-a8f0-e5851813d1da"}},"connectionId":9,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:29.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn8","msg":"Connection ended","attr":{"remote":"127.0.0.1:43120","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"92d0bfcc-a2e4-4e7c-b618-5668c325019c"}},"connectionId":8,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:30.608+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43154","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5287c7fe-62cd-406a-b24f-f1622c79aba1"}},"connectionId":11,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:30.611+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn11","msg":"client metadata","attr":{"remote":"127.0.0.1:43154","client":"conn11","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.611+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn11","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43154","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.616+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43160","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"05af14b9-7cee-4568-b36c-b01e6718f263"}},"connectionId":12,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:30.618+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn12","msg":"client metadata","attr":{"remote":"127.0.0.1:43160","client":"conn12","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.618+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn12","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:30.626+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn12","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43160","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7661,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":20}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.638+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn12","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:30.659+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4312fb29-3c9a-48a2-a5ea-91d0745b1d2e"}},"connectionId":13,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:30.660+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43170","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e75b334-b291-427a-b2d0-d48ce76db87a"}},"connectionId":14,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:30.663+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn13","msg":"client metadata","attr":{"remote":"127.0.0.1:43168","client":"conn13","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.663+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn13","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:30.664+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn14","msg":"client metadata","attr":{"remote":"127.0.0.1:43170","client":"conn14","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.664+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn14","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:30.896+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn13","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43168","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":232837,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":29}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.897+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn14","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43170","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":232194,"summary":{"0":{"step":1,"step_total":2,"duration_micros":35},"1":{"step":2,"step_total":2,"duration_micros":12}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:30.899+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn14","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
+
+{"t":{"$date":"2026-11-24T02:22:30.901+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn13","msg":"Connection ended","attr":{"remote":"127.0.0.1:43168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4312fb29-3c9a-48a2-a5ea-91d0745b1d2e"}},"connectionId":13,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:30.902+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn14","msg":"Connection ended","attr":{"remote":"127.0.0.1:43170","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e75b334-b291-427a-b2d0-d48ce76db87a"}},"connectionId":14,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:30.917+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn11","msg":"Connection ended","attr":{"remote":"127.0.0.1:43154","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5287c7fe-62cd-406a-b24f-f1622c79aba1"}},"connectionId":11,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:30.918+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn12","msg":"Connection ended","attr":{"remote":"127.0.0.1:43160","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"05af14b9-7cee-4568-b36c-b01e6718f263"}},"connectionId":12,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:31.712+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43180","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b468e48a-8127-4ea3-b16e-1e38e7699cda"}},"connectionId":15,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:31.715+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn15","msg":"client metadata","attr":{"remote":"127.0.0.1:43180","client":"conn15","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.715+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn15","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:43180","doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.720+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43194","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"15681c59-7aab-410b-9629-72b572ce0971"}},"connectionId":16,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:31.721+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn16","msg":"client metadata","attr":{"remote":"127.0.0.1:43194","client":"conn16","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.722+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn16","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:31.729+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn16","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43194","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":7628,"summary":{"0":{"step":1,"step_total":2,"duration_micros":44},"1":{"step":2,"step_total":2,"duration_micros":16}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.741+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn16","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:31.880+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43200","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0c7e96a8-552c-49d5-bd2d-32d28e9d01a0"}},"connectionId":17,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:31.880+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:43216","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"451ae455-e674-4dc7-9308-fccad683594d"}},"connectionId":18,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:31.884+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn16","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"b40cce20-4c4a-4c4e-a073-cc5924426c22\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.885+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn17","msg":"client metadata","attr":{"remote":"127.0.0.1:43200","client":"conn17","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.885+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn17","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:31.886+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn18","msg":"client metadata","attr":{"remote":"127.0.0.1:43216","client":"conn18","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.886+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn18","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:31.888+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn16","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"9c4d1a90-0435-475f-a265-d95b48027446\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.898+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn15","msg":"Connection ended","attr":{"remote":"127.0.0.1:43180","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b468e48a-8127-4ea3-b16e-1e38e7699cda"}},"connectionId":15,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:31.898+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn16","msg":"Connection ended","attr":{"remote":"127.0.0.1:43194","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"15681c59-7aab-410b-9629-72b572ce0971"}},"connectionId":16,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:31.901+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn17","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43200","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":15414,"summary":{"0":{"step":1,"step_total":2,"duration_micros":42},"1":{"step":2,"step_total":2,"duration_micros":18}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.901+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn18","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:43216","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":14782,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":9}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:31.902+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn17","msg":"Connection ended","attr":{"remote":"127.0.0.1:43200","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0c7e96a8-552c-49d5-bd2d-32d28e9d01a0"}},"connectionId":17,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:31.903+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn18","msg":"Connection ended","attr":{"remote":"127.0.0.1:43216","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"451ae455-e674-4dc7-9308-fccad683594d"}},"connectionId":18,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:32.739+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44422","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3c39b969-2183-40a7-98c9-6ed94da4df8d"}},"connectionId":19,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:32.742+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn19","msg":"client metadata","attr":{"remote":"127.0.0.1:44422","client":"conn19","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.742+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn19","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44422","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.747+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44436","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fcb8d5d8-dca5-4673-84f9-0148289689d8"}},"connectionId":20,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:32.749+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn20","msg":"client metadata","attr":{"remote":"127.0.0.1:44436","client":"conn20","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.749+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn20","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:32.757+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn20","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44436","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7587,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":18}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.771+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn20","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:32.792+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44450","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a281d493-183f-4b9e-bee8-7fe472a64152"}},"connectionId":21,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:32.793+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44458","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"643c2f54-aebe-4c82-a96f-37dcce37a552"}},"connectionId":22,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:32.796+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn21","msg":"client metadata","attr":{"remote":"127.0.0.1:44450","client":"conn21","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.796+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn21","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:32.797+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn22","msg":"client metadata","attr":{"remote":"127.0.0.1:44458","client":"conn22","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:32.797+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn22","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:33.070+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn21","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44450","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":274318,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":27}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.071+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn22","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44458","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":273382,"summary":{"0":{"step":1,"step_total":2,"duration_micros":35},"1":{"step":2,"step_total":2,"duration_micros":12}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.074+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn22","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":3}}
+
+{"t":{"$date":"2026-11-24T02:22:33.075+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn21","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":4}}
+
+{"t":{"$date":"2026-11-24T02:22:33.106+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn19","msg":"Connection ended","attr":{"remote":"127.0.0.1:44422","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"3c39b969-2183-40a7-98c9-6ed94da4df8d"}},"connectionId":19,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:33.107+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn22","msg":"Connection ended","attr":{"remote":"127.0.0.1:44458","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"643c2f54-aebe-4c82-a96f-37dcce37a552"}},"connectionId":22,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:33.107+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn21","msg":"Connection ended","attr":{"remote":"127.0.0.1:44450","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a281d493-183f-4b9e-bee8-7fe472a64152"}},"connectionId":21,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:33.107+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn20","msg":"Connection ended","attr":{"remote":"127.0.0.1:44436","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fcb8d5d8-dca5-4673-84f9-0148289689d8"}},"connectionId":20,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:33.919+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44460","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"30fb028e-baac-4b2c-8d65-7133f12e4faa"}},"connectionId":23,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:33.922+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn23","msg":"client metadata","attr":{"remote":"127.0.0.1:44460","client":"conn23","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.922+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn23","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44460","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.927+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44466","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2edd3705-480d-4230-aa31-6104210b23bb"}},"connectionId":24,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:33.929+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn24","msg":"client metadata","attr":{"remote":"127.0.0.1:44466","client":"conn24","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.929+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn24","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:33.937+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn24","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44466","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":8039,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":20}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.950+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn24","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:33.972+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44482","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"064523a8-e29d-4135-9190-788325063287"}},"connectionId":25,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:33.972+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44494","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5e5fce8f-538a-47b9-8ff4-23401787333f"}},"connectionId":26,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:33.975+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn25","msg":"client metadata","attr":{"remote":"127.0.0.1:44482","client":"conn25","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.975+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn25","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:33.976+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn26","msg":"client metadata","attr":{"remote":"127.0.0.1:44494","client":"conn26","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:33.976+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn26","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:34.206+00:00"},"s":"I",  "c":"-",        "id":20701,   "ctx":"conn24","msg":"Creating profile collection","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-24T02:22:34.206+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn24","msg":"createCollection","attr":{"namespace":"comercial.system.profile","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"d00d6900-23e6-4488-84b5-6105be363f77"}},"options":{"capped":true,"size":1048576}}}
+
+{"t":{"$date":"2026-11-24T02:22:34.208+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn25","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44482","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":233020,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":23}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:34.209+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn26","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44494","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":232489,"summary":{"0":{"step":1,"step_total":2,"duration_micros":26},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:34.212+00:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn24","msg":"Profiler settings changed","attr":{"from":{"level":0,"slowms":100,"sampleRate":1},"to":{"level":2,"slowms":100,"sampleRate":1},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-24T02:22:34.213+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn26","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":4}}
+
+{"t":{"$date":"2026-11-24T02:22:34.230+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn23","msg":"Connection ended","attr":{"remote":"127.0.0.1:44460","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"30fb028e-baac-4b2c-8d65-7133f12e4faa"}},"connectionId":23,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:34.231+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn24","msg":"Connection ended","attr":{"remote":"127.0.0.1:44466","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2edd3705-480d-4230-aa31-6104210b23bb"}},"connectionId":24,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:34.231+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn26","msg":"Connection ended","attr":{"remote":"127.0.0.1:44494","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5e5fce8f-538a-47b9-8ff4-23401787333f"}},"connectionId":26,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:34.231+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn25","msg":"Connection ended","attr":{"remote":"127.0.0.1:44482","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"064523a8-e29d-4135-9190-788325063287"}},"connectionId":25,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:35.078+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44508","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"34be7397-503c-442c-abaa-d4af22385f41"}},"connectionId":27,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:35.081+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn27","msg":"client metadata","attr":{"remote":"127.0.0.1:44508","client":"conn27","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.081+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn27","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44508","doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.086+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44522","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"18a6a4bc-f3b0-45be-9fb5-cd4fe281dad9"}},"connectionId":28,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:35.088+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn28","msg":"client metadata","attr":{"remote":"127.0.0.1:44522","client":"conn28","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.088+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn28","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:35.096+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn28","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44522","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":7783,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":22}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.109+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn28","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:35.267+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44526","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d803ce1e-9037-498c-aa9c-7b67a50264e2"}},"connectionId":29,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:35.268+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44532","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5d30f053-2b54-43e2-b516-b571ef091a9f"}},"connectionId":30,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:35.271+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn28","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"0c8f9ef1-5119-4e9a-9670-1ee6922d99bd\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.273+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn29","msg":"client metadata","attr":{"remote":"127.0.0.1:44526","client":"conn29","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.273+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn29","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:35.274+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn30","msg":"client metadata","attr":{"remote":"127.0.0.1:44532","client":"conn30","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.274+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn30","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:35.277+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn28","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"055d4d97-c1ea-4239-9e14-fa424a00a996\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.288+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn29","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44526","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":15581,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":18}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.289+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn30","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44532","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":14822,"summary":{"0":{"step":1,"step_total":2,"duration_micros":26},"1":{"step":2,"step_total":2,"duration_micros":12}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.292+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn30","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: 1, featureCompatibilityVersion: 1, lsid: { id: UUID(\"3e0eb24c-9f4b-4c73-8847-26fbc76e1f70\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:35.295+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30","msg":"Connection ended","attr":{"remote":"127.0.0.1:44532","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5d30f053-2b54-43e2-b516-b571ef091a9f"}},"connectionId":30,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:35.296+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn29","msg":"Connection ended","attr":{"remote":"127.0.0.1:44526","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d803ce1e-9037-498c-aa9c-7b67a50264e2"}},"connectionId":29,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:35.307+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn27","msg":"Connection ended","attr":{"remote":"127.0.0.1:44508","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"34be7397-503c-442c-abaa-d4af22385f41"}},"connectionId":27,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:35.307+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn28","msg":"Connection ended","attr":{"remote":"127.0.0.1:44522","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"18a6a4bc-f3b0-45be-9fb5-cd4fe281dad9"}},"connectionId":28,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:36.123+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44548","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"76471394-d109-4a4d-864e-491ed80e1a37"}},"connectionId":31,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:36.126+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn31","msg":"client metadata","attr":{"remote":"127.0.0.1:44548","client":"conn31","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.126+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn31","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44548","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.131+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44564","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f3a65d33-aa0d-429d-974d-de5981a6f863"}},"connectionId":32,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:36.133+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn32","msg":"client metadata","attr":{"remote":"127.0.0.1:44564","client":"conn32","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.133+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn32","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:36.141+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn32","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44564","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7900,"summary":{"0":{"step":1,"step_total":2,"duration_micros":33},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.154+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn32","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:36.175+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44568","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf1ae68b-a0f0-4ec5-98e2-112f0b9863e8"}},"connectionId":33,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:36.175+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44570","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b1512d61-eb8a-4324-9c8d-508bb46a80df"}},"connectionId":34,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:36.178+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn33","msg":"client metadata","attr":{"remote":"127.0.0.1:44568","client":"conn33","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.178+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn33","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:36.179+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn34","msg":"client metadata","attr":{"remote":"127.0.0.1:44570","client":"conn34","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.179+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn34","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:36.404+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn33","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44568","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":226012,"summary":{"0":{"step":1,"step_total":2,"duration_micros":29},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.405+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn34","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44570","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":225493,"summary":{"0":{"step":1,"step_total":2,"duration_micros":25},"1":{"step":2,"step_total":2,"duration_micros":8}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:36.408+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn34","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":3}}
+
+{"t":{"$date":"2026-11-24T02:22:36.423+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn31","msg":"Connection ended","attr":{"remote":"127.0.0.1:44548","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"76471394-d109-4a4d-864e-491ed80e1a37"}},"connectionId":31,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:36.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn34","msg":"Connection ended","attr":{"remote":"127.0.0.1:44570","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b1512d61-eb8a-4324-9c8d-508bb46a80df"}},"connectionId":34,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:36.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn33","msg":"Connection ended","attr":{"remote":"127.0.0.1:44568","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf1ae68b-a0f0-4ec5-98e2-112f0b9863e8"}},"connectionId":33,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:36.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn32","msg":"Connection ended","attr":{"remote":"127.0.0.1:44564","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f3a65d33-aa0d-429d-974d-de5981a6f863"}},"connectionId":32,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:37.222+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44580","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0b7439b3-6b63-48bc-9f9b-63881b3f0f42"}},"connectionId":35,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:37.225+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn35","msg":"client metadata","attr":{"remote":"127.0.0.1:44580","client":"conn35","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.225+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn35","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44580","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.230+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44588","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"53bca873-b1d0-4d7b-8e68-d57235a9e34f"}},"connectionId":36,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:37.232+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn36","msg":"client metadata","attr":{"remote":"127.0.0.1:44588","client":"conn36","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.232+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn36","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:37.240+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn36","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44588","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7859,"summary":{"0":{"step":1,"step_total":2,"duration_micros":44},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.252+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn36","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:37.399+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44590","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"24e3b52a-3413-46b4-ad71-4f7e8735dddd"}},"connectionId":37,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:37.399+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44600","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7df71da4-bb01-485f-9bd5-23e2c55f9377"}},"connectionId":38,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:37.404+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn37","msg":"client metadata","attr":{"remote":"127.0.0.1:44590","client":"conn37","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.404+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn37","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:37.405+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn38","msg":"client metadata","attr":{"remote":"127.0.0.1:44600","client":"conn38","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.405+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn38","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:37.418+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn35","msg":"Connection ended","attr":{"remote":"127.0.0.1:44580","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"0b7439b3-6b63-48bc-9f9b-63881b3f0f42"}},"connectionId":35,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:37.419+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn36","msg":"Connection ended","attr":{"remote":"127.0.0.1:44588","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"53bca873-b1d0-4d7b-8e68-d57235a9e34f"}},"connectionId":36,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:37.422+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn37","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44590","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":17907,"summary":{"0":{"step":1,"step_total":2,"duration_micros":34},"1":{"step":2,"step_total":2,"duration_micros":18}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.422+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn38","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44600","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":17233,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":9}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:37.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn37","msg":"Connection ended","attr":{"remote":"127.0.0.1:44590","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"24e3b52a-3413-46b4-ad71-4f7e8735dddd"}},"connectionId":37,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:37.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn38","msg":"Connection ended","attr":{"remote":"127.0.0.1:44600","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"7df71da4-bb01-485f-9bd5-23e2c55f9377"}},"connectionId":38,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:38.228+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44616","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9a02b1d7-728f-496c-b6e2-54ba3fcf9b45"}},"connectionId":39,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:38.231+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn39","msg":"client metadata","attr":{"remote":"127.0.0.1:44616","client":"conn39","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.231+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn39","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44616","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.236+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44622","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf73e2a9-dd25-4326-b314-db7b18e23b00"}},"connectionId":40,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:38.238+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn40","msg":"client metadata","attr":{"remote":"127.0.0.1:44622","client":"conn40","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.238+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn40","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:38.246+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn40","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44622","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7762,"summary":{"0":{"step":1,"step_total":2,"duration_micros":43},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.258+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn40","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:38.280+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44630","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4e6e60fe-a407-4f23-aa39-679f1127f66b"}},"connectionId":41,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:38.280+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44632","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"22327541-fc57-42f2-aa16-7626999648db"}},"connectionId":42,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:38.283+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn41","msg":"client metadata","attr":{"remote":"127.0.0.1:44630","client":"conn41","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.283+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn41","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:38.284+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn42","msg":"client metadata","attr":{"remote":"127.0.0.1:44632","client":"conn42","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.284+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn42","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:38.520+00:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn40","msg":"Profiler settings changed","attr":{"from":{"level":2,"slowms":100,"sampleRate":1},"to":{"level":0,"slowms":100,"sampleRate":1},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-24T02:22:38.523+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn41","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44630","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":239553,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":33}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.523+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn42","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44632","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":238928,"summary":{"0":{"step":1,"step_total":2,"duration_micros":27},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.525+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn42","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
+
+{"t":{"$date":"2026-11-24T02:22:38.539+00:00"},"s":"I",  "c":"COMMAND",  "id":518070,  "ctx":"conn42","msg":"CMD: drop","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-24T02:22:38.540+00:00"},"s":"I",  "c":"STORAGE",  "id":20318,   "ctx":"conn42","msg":"Finishing collection drop","attr":{"namespace":"comercial.system.profile","uuid":{"uuid":{"$uuid":"d00d6900-23e6-4488-84b5-6105be363f77"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.540+00:00"},"s":"I",  "c":"STORAGE",  "id":22214,   "ctx":"conn42","msg":"Deferring table drop for collection","attr":{"namespace":"comercial.system.profile","ident":"collection-12--2639484252837256572","dropTime":{"checkpointIteration":"0"}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.542+00:00"},"s":"I",  "c":"-",        "id":20701,   "ctx":"conn42","msg":"Creating profile collection","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-24T02:22:38.542+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn42","msg":"createCollection","attr":{"namespace":"comercial.system.profile","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"d121cd0e-e45d-4197-9b19-73b1e8983a5a"}},"options":{"capped":true,"size":1048576}}}
+
+{"t":{"$date":"2026-11-24T02:22:38.544+00:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn42","msg":"Profiler settings changed","attr":{"from":{"level":0,"slowms":100,"sampleRate":1},"to":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-24T02:22:38.551+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn39","msg":"Connection ended","attr":{"remote":"127.0.0.1:44616","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9a02b1d7-728f-496c-b6e2-54ba3fcf9b45"}},"connectionId":39,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:38.551+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn42","msg":"Connection ended","attr":{"remote":"127.0.0.1:44632","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"22327541-fc57-42f2-aa16-7626999648db"}},"connectionId":42,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:38.551+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn41","msg":"Connection ended","attr":{"remote":"127.0.0.1:44630","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"4e6e60fe-a407-4f23-aa39-679f1127f66b"}},"connectionId":41,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:38.552+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn40","msg":"Connection ended","attr":{"remote":"127.0.0.1:44622","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf73e2a9-dd25-4326-b314-db7b18e23b00"}},"connectionId":40,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:39.343+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44634","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1f834dd7-3e4c-421f-8be1-15f464775aa5"}},"connectionId":43,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:39.347+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn43","msg":"client metadata","attr":{"remote":"127.0.0.1:44634","client":"conn43","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.347+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn43","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44634","doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.352+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44650","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6c31acbd-d1d1-4ef5-aa98-2c0d530f0c46"}},"connectionId":44,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:39.353+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn44","msg":"client metadata","attr":{"remote":"127.0.0.1:44650","client":"conn44","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.354+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn44","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:39.362+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn44","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44650","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":7954,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":22}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.374+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn44","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:39.519+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44662","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"03642ab7-6e50-40de-ba52-b7428a9d72fa"}},"connectionId":45,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:39.519+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44678","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"67a5fd72-6efb-4c5a-bc0a-58a6aebe2b20"}},"connectionId":46,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:39.522+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn44","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"5f22f3db-e7cb-4c1b-8c98-889eac9e2fdd\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.523+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn45","msg":"client metadata","attr":{"remote":"127.0.0.1:44662","client":"conn45","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.524+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn45","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:39.525+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn46","msg":"client metadata","attr":{"remote":"127.0.0.1:44678","client":"conn46","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.525+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn46","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:39.527+00:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn44","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"33498207-fda0-4861-8687-c49189d99910\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.536+00:00"},"s":"I",  "c":"WRITE",    "id":51803,   "ctx":"conn44","msg":"Slow query","attr":{"type":"update","ns":"comercial.clientes","appName":"app-ventas-web","command":{"q":{"_id":1},"u":{"$set":{"telefono":"6670000000"}},"multi":false,"upsert":false},"planSummary":"IDHACK","planningTimeMicros":48,"keysExamined":1,"docsExamined":1,"nMatched":1,"nModified":1,"nUpserted":0,"keysInserted":0,"keysDeleted":0,"numYields":0,"locks":{"ParallelBatchWriterMode":{"acquireCount":{"r":1}},"FeatureCompatibilityVersion":{"acquireCount":{"w":1}},"ReplicationStateTransition":{"acquireCount":{"w":1}},"Global":{"acquireCount":{"w":1}},"Database":{"acquireCount":{"w":1}},"Collection":{"acquireCount":{"w":1}}},"flowControl":{"acquireCount":1},"storage":{},"cpuNanos":174335,"remote":"127.0.0.1:44650","durationMillis":0}}
+
+{"t":{"$date":"2026-11-24T02:22:39.541+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn43","msg":"Connection ended","attr":{"remote":"127.0.0.1:44634","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1f834dd7-3e4c-421f-8be1-15f464775aa5"}},"connectionId":43,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:39.542+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn44","msg":"Connection ended","attr":{"remote":"127.0.0.1:44650","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6c31acbd-d1d1-4ef5-aa98-2c0d530f0c46"}},"connectionId":44,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:39.543+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn45","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44662","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":19808,"summary":{"0":{"step":1,"step_total":2,"duration_micros":34},"1":{"step":2,"step_total":2,"duration_micros":18}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.544+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn46","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44678","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":19157,"summary":{"0":{"step":1,"step_total":2,"duration_micros":27},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:39.544+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn45","msg":"Connection ended","attr":{"remote":"127.0.0.1:44662","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"03642ab7-6e50-40de-ba52-b7428a9d72fa"}},"connectionId":45,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:39.545+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn46","msg":"Connection ended","attr":{"remote":"127.0.0.1:44678","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"67a5fd72-6efb-4c5a-bc0a-58a6aebe2b20"}},"connectionId":46,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:40.367+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44686","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cdaa7390-62e0-49c2-8df1-bb8554118d78"}},"connectionId":47,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:40.371+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn47","msg":"client metadata","attr":{"remote":"127.0.0.1:44686","client":"conn47","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.371+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn47","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44686","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.375+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44690","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"58b10d22-07ec-406b-a18b-26b1c8eff51d"}},"connectionId":48,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:40.377+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn48","msg":"client metadata","attr":{"remote":"127.0.0.1:44690","client":"conn48","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.377+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn48","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:40.385+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn48","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44690","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7609,"summary":{"0":{"step":1,"step_total":2,"duration_micros":34},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.397+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn48","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:40.418+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44692","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"19595eda-67fa-496c-93a1-75180358e13d"}},"connectionId":49,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:40.419+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44704","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6a32bd1f-cd94-467c-a473-50970af2c4eb"}},"connectionId":50,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:40.422+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn49","msg":"client metadata","attr":{"remote":"127.0.0.1:44692","client":"conn49","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.422+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn49","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:40.423+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn50","msg":"client metadata","attr":{"remote":"127.0.0.1:44704","client":"conn50","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.423+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn50","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:40.650+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn49","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44692","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":228035,"summary":{"0":{"step":1,"step_total":2,"duration_micros":38},"1":{"step":2,"step_total":2,"duration_micros":22}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.650+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn50","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:44704","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":227521,"summary":{"0":{"step":1,"step_total":2,"duration_micros":25},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:40.654+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn50","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":3}}
+
+{"t":{"$date":"2026-11-24T02:22:40.669+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn47","msg":"Connection ended","attr":{"remote":"127.0.0.1:44686","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cdaa7390-62e0-49c2-8df1-bb8554118d78"}},"connectionId":47,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:40.669+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn50","msg":"Connection ended","attr":{"remote":"127.0.0.1:44704","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"6a32bd1f-cd94-467c-a473-50970af2c4eb"}},"connectionId":50,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:40.670+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn49","msg":"Connection ended","attr":{"remote":"127.0.0.1:44692","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"19595eda-67fa-496c-93a1-75180358e13d"}},"connectionId":49,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:40.670+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn48","msg":"Connection ended","attr":{"remote":"127.0.0.1:44690","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"58b10d22-07ec-406b-a18b-26b1c8eff51d"}},"connectionId":48,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:41.510+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44720","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"af07b237-de42-4e51-bd27-0bdf9c51c175"}},"connectionId":51,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:41.513+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn51","msg":"client metadata","attr":{"remote":"127.0.0.1:44720","client":"conn51","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:41.513+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn51","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:44720","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:41.519+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:44726","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f185b639-4a07-463a-b59b-32b1b974e152"}},"connectionId":52,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:41.520+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn52","msg":"client metadata","attr":{"remote":"127.0.0.1:44726","client":"conn52","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:41.520+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn52","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:41.528+00:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn52","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:44726","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","error":"AuthenticationFailed: SCRAM authentication failed, storedKey mismatch","result":18,"metrics":{"conversation_duration":{"micros":7757,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:41.529+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn52","msg":"Connection ended","attr":{"remote":"127.0.0.1:44726","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f185b639-4a07-463a-b59b-32b1b974e152"}},"connectionId":52,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:41.531+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn51","msg":"Connection ended","attr":{"remote":"127.0.0.1:44720","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"af07b237-de42-4e51-bd27-0bdf9c51c175"}},"connectionId":51,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:42.321+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39010","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"aeb3f11c-46d4-48b4-bc04-611bbb3cd194"}},"connectionId":53,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:42.325+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn53","msg":"client metadata","attr":{"remote":"127.0.0.1:39010","client":"conn53","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.325+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn53","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39010","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.330+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39016","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"277f2fbe-f044-4b20-a19b-8d227aaa0ec7"}},"connectionId":54,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:42.331+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn54","msg":"client metadata","attr":{"remote":"127.0.0.1:39016","client":"conn54","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.331+00:00"},"s":"I",  "c":"ACCESS",   "id":20251,   "ctx":"conn54","msg":"Supported SASL mechanisms requested for unknown user","attr":{"user":{"user":"usuario_inexistente","db":"comercial"}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.332+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn54","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:42.332+00:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn54","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:39016","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"usuario_inexistente","db":"comercial","error":"UserNotFound: Could not find user \"usuario_inexistente\" for db \"comercial\"","result":11,"metrics":{"conversation_duration":{"micros":183,"summary":{"0":{"step":1,"step_total":2,"duration_micros":168}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.333+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn54","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:42.333+00:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn54","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:39016","isSpeculative":false,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"usuario_inexistente","db":"comercial","error":"UserNotFound: Could not find user \"usuario_inexistente\" for db \"comercial\"","result":11,"metrics":{"conversation_duration":{"micros":299,"summary":{"0":{"step":1,"step_total":2,"duration_micros":286}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:42.335+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn54","msg":"Connection ended","attr":{"remote":"127.0.0.1:39016","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"277f2fbe-f044-4b20-a19b-8d227aaa0ec7"}},"connectionId":54,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:42.336+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn53","msg":"Connection ended","attr":{"remote":"127.0.0.1:39010","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"aeb3f11c-46d4-48b4-bc04-611bbb3cd194"}},"connectionId":53,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:43.109+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39026","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b5d28456-49f4-4901-b83c-9ecc8f4d36f7"}},"connectionId":55,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:43.112+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn55","msg":"client metadata","attr":{"remote":"127.0.0.1:39026","client":"conn55","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.112+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn55","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39026","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.117+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39040","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fb9c5e2c-058d-4d2e-9d51-385f0a5cea72"}},"connectionId":56,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:43.119+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn56","msg":"client metadata","attr":{"remote":"127.0.0.1:39040","client":"conn56","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.119+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn56","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:43.126+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn56","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39040","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7497,"summary":{"0":{"step":1,"step_total":2,"duration_micros":33},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.139+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn56","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:43.159+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39052","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"361832b7-467c-4228-b3b1-9deafe8a3c77"}},"connectionId":57,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:43.159+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39066","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e1d6a59-3fa0-422f-9c3c-6be93e4efcdb"}},"connectionId":58,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:43.163+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn57","msg":"client metadata","attr":{"remote":"127.0.0.1:39052","client":"conn57","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.163+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn57","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:43.163+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn58","msg":"client metadata","attr":{"remote":"127.0.0.1:39066","client":"conn58","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.163+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn58","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:43.456+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn57","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39052","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":293800,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":33}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.457+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn58","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39066","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":293355,"summary":{"0":{"step":1,"step_total":2,"duration_micros":27},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:43.458+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn58","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
+
+{"t":{"$date":"2026-11-24T02:22:43.479+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn55","msg":"Connection ended","attr":{"remote":"127.0.0.1:39026","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"b5d28456-49f4-4901-b83c-9ecc8f4d36f7"}},"connectionId":55,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:43.480+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn58","msg":"Connection ended","attr":{"remote":"127.0.0.1:39066","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2e1d6a59-3fa0-422f-9c3c-6be93e4efcdb"}},"connectionId":58,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:43.480+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn57","msg":"Connection ended","attr":{"remote":"127.0.0.1:39052","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"361832b7-467c-4228-b3b1-9deafe8a3c77"}},"connectionId":57,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:43.480+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn56","msg":"Connection ended","attr":{"remote":"127.0.0.1:39040","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"fb9c5e2c-058d-4d2e-9d51-385f0a5cea72"}},"connectionId":56,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:44.252+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a4ac1d73-a007-4413-a858-5af152cfe81b"}},"connectionId":59,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:44.256+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn59","msg":"client metadata","attr":{"remote":"127.0.0.1:39072","client":"conn59","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.256+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn59","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39072","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.261+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39088","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"df48681a-1026-448c-8f29-8654ec8b3246"}},"connectionId":60,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:44.262+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn60","msg":"client metadata","attr":{"remote":"127.0.0.1:39088","client":"conn60","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.262+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn60","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:44.270+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn60","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39088","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7559,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.282+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn60","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:44.304+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39098","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a45ee9c8-9fdc-4b1d-930d-2f0bf77ec3ca"}},"connectionId":61,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:44.304+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"58f295b9-d8b4-4ec2-8064-03e5cf6a01b1"}},"connectionId":62,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:44.308+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn61","msg":"client metadata","attr":{"remote":"127.0.0.1:39098","client":"conn61","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.308+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn61","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:44.308+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn62","msg":"client metadata","attr":{"remote":"127.0.0.1:39106","client":"conn62","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.308+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn62","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:44.610+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn61","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39098","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":302089,"summary":{"0":{"step":1,"step_total":2,"duration_micros":30},"1":{"step":2,"step_total":2,"duration_micros":24}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.610+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn62","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39106","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":302403,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":49}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:44.612+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn62","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
+
+{"t":{"$date":"2026-11-24T02:22:44.635+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn59","msg":"Connection ended","attr":{"remote":"127.0.0.1:39072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a4ac1d73-a007-4413-a858-5af152cfe81b"}},"connectionId":59,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:44.636+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn60","msg":"Connection ended","attr":{"remote":"127.0.0.1:39088","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"df48681a-1026-448c-8f29-8654ec8b3246"}},"connectionId":60,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:44.636+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn62","msg":"Connection ended","attr":{"remote":"127.0.0.1:39106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"58f295b9-d8b4-4ec2-8064-03e5cf6a01b1"}},"connectionId":62,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:44.637+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn61","msg":"Connection ended","attr":{"remote":"127.0.0.1:39098","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a45ee9c8-9fdc-4b1d-930d-2f0bf77ec3ca"}},"connectionId":61,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:45.463+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39122","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f56aae0e-491b-4232-97d2-2a0a40ef685e"}},"connectionId":63,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:45.467+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn63","msg":"client metadata","attr":{"remote":"127.0.0.1:39122","client":"conn63","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.467+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn63","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39122","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.472+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39138","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"185be05f-6969-4278-ba50-7d62d411ef63"}},"connectionId":64,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:45.474+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn64","msg":"client metadata","attr":{"remote":"127.0.0.1:39138","client":"conn64","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.474+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn64","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:45.482+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn64","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39138","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7995,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":20}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.494+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn64","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:45.516+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39150","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf37d3ef-b782-462a-a173-40d479b85046"}},"connectionId":65,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:45.516+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39158","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"65564bb7-36b4-4323-8793-073a498aab40"}},"connectionId":66,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:45.519+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn65","msg":"client metadata","attr":{"remote":"127.0.0.1:39150","client":"conn65","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.519+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn65","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:45.520+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn66","msg":"client metadata","attr":{"remote":"127.0.0.1:39158","client":"conn66","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.520+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn66","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:45.747+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn65","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39150","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":227470,"summary":{"0":{"step":1,"step_total":2,"duration_micros":30},"1":{"step":2,"step_total":2,"duration_micros":23}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.747+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn66","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39158","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":226964,"summary":{"0":{"step":1,"step_total":2,"duration_micros":37},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.750+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn66","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":3}}
+
+{"t":{"$date":"2026-11-24T02:22:45.763+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn64","msg":"createCollection","attr":{"namespace":"auditoria.instantaneas_privilegios","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"33afe059-2144-49b3-9608-175383e37cb0"}},"options":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.768+00:00"},"s":"I",  "c":"REPL",     "id":7360102, "ctx":"conn64","msg":"Added oplog entry for create to transaction","attr":{"namespace":"auditoria.$cmd","uuid":{"uuid":{"$uuid":"33afe059-2144-49b3-9608-175383e37cb0"}},"object":{"create":"instantaneas_privilegios","idIndex":{"v":2,"key":{"_id":1},"name":"_id_"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:45.768+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn64","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"33afe059-2144-49b3-9608-175383e37cb0"}},"namespace":"auditoria.instantaneas_privilegios","index":"_id_","ident":"index-15--2639484252837256572","collectionIdent":"collection-14--2639484252837256572","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-24T02:22:45.772+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn63","msg":"Connection ended","attr":{"remote":"127.0.0.1:39122","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"f56aae0e-491b-4232-97d2-2a0a40ef685e"}},"connectionId":63,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:45.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn64","msg":"Connection ended","attr":{"remote":"127.0.0.1:39138","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"185be05f-6969-4278-ba50-7d62d411ef63"}},"connectionId":64,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:45.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn66","msg":"Connection ended","attr":{"remote":"127.0.0.1:39158","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"65564bb7-36b4-4323-8793-073a498aab40"}},"connectionId":66,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:45.773+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn65","msg":"Connection ended","attr":{"remote":"127.0.0.1:39150","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cf37d3ef-b782-462a-a173-40d479b85046"}},"connectionId":65,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:47.585+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"39d3a1d9-dad0-4943-9c01-7ebe47c93b51"}},"connectionId":67,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:47.588+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn67","msg":"client metadata","attr":{"remote":"127.0.0.1:39168","client":"conn67","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.588+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn67","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39168","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.593+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39174","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"11088c91-eb95-46a3-b167-88e14e5f5044"}},"connectionId":68,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:47.595+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn68","msg":"client metadata","attr":{"remote":"127.0.0.1:39174","client":"conn68","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.595+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn68","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:47.603+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn68","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39174","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7957,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.616+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn68","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:47.638+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39176","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e4f27d93-3bfa-4448-a43f-7b8415514f71"}},"connectionId":69,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:47.638+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39178","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cd0aab8e-9549-414b-9486-ab552b7968e0"}},"connectionId":70,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:47.642+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn69","msg":"client metadata","attr":{"remote":"127.0.0.1:39176","client":"conn69","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.642+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn69","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:47.643+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn70","msg":"client metadata","attr":{"remote":"127.0.0.1:39178","client":"conn70","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.643+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn70","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:47.897+00:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn68","msg":"Profiler settings changed","attr":{"from":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"to":{"level":2,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-24T02:22:47.900+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn69","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39176","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":258343,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":23}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.900+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn70","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39178","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":257877,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:47.902+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn70","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
+
+{"t":{"$date":"2026-11-24T02:22:47.937+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn67","msg":"Connection ended","attr":{"remote":"127.0.0.1:39168","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"39d3a1d9-dad0-4943-9c01-7ebe47c93b51"}},"connectionId":67,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:47.938+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn70","msg":"Connection ended","attr":{"remote":"127.0.0.1:39178","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cd0aab8e-9549-414b-9486-ab552b7968e0"}},"connectionId":70,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:47.938+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn69","msg":"Connection ended","attr":{"remote":"127.0.0.1:39176","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e4f27d93-3bfa-4448-a43f-7b8415514f71"}},"connectionId":69,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:47.938+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn68","msg":"Connection ended","attr":{"remote":"127.0.0.1:39174","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"11088c91-eb95-46a3-b167-88e14e5f5044"}},"connectionId":68,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:49.852+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39190","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"684d80b2-0019-4dbe-a631-f5cbf94d5ff8"}},"connectionId":71,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:49.855+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn71","msg":"client metadata","attr":{"remote":"127.0.0.1:39190","client":"conn71","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.855+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn71","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39190","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.860+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39196","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9967e807-c5bc-4a5f-b21e-bf1a28799eee"}},"connectionId":72,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:49.862+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn72","msg":"client metadata","attr":{"remote":"127.0.0.1:39196","client":"conn72","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.862+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn72","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:49.871+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn72","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39196","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":8697,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.884+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn72","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:49.905+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39198","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d4fa55d8-27fb-4071-9589-e22b9f0c1ada"}},"connectionId":73,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:49.906+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39202","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"06df9e39-a92d-4ca1-be16-0d22607bf3a7"}},"connectionId":74,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:49.909+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn73","msg":"client metadata","attr":{"remote":"127.0.0.1:39198","client":"conn73","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.909+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn73","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:49.910+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn74","msg":"client metadata","attr":{"remote":"127.0.0.1:39202","client":"conn74","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:49.910+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn74","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:50.146+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn73","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39198","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":237314,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":22}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:50.147+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn74","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39202","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":236837,"summary":{"0":{"step":1,"step_total":2,"duration_micros":28},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:50.150+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn74","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":3}}
+
+{"t":{"$date":"2026-11-24T02:22:50.167+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn71","msg":"Connection ended","attr":{"remote":"127.0.0.1:39190","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"684d80b2-0019-4dbe-a631-f5cbf94d5ff8"}},"connectionId":71,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:50.168+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn74","msg":"Connection ended","attr":{"remote":"127.0.0.1:39202","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"06df9e39-a92d-4ca1-be16-0d22607bf3a7"}},"connectionId":74,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:50.168+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn73","msg":"Connection ended","attr":{"remote":"127.0.0.1:39198","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"d4fa55d8-27fb-4071-9589-e22b9f0c1ada"}},"connectionId":73,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:50.169+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn72","msg":"Connection ended","attr":{"remote":"127.0.0.1:39196","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9967e807-c5bc-4a5f-b21e-bf1a28799eee"}},"connectionId":72,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:51.024+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39218","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a2d71dd1-d443-4055-84f6-36b4249e2a5f"}},"connectionId":75,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:51.027+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn75","msg":"client metadata","attr":{"remote":"127.0.0.1:39218","client":"conn75","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.027+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn75","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39218","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.032+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39224","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"db704f40-3e12-48e0-9a2b-20bbf7700f8b"}},"connectionId":76,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:51.034+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn76","msg":"client metadata","attr":{"remote":"127.0.0.1:39224","client":"conn76","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.034+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn76","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:51.042+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn76","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39224","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7838,"summary":{"0":{"step":1,"step_total":2,"duration_micros":31},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.055+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn76","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":13}}
+
+{"t":{"$date":"2026-11-24T02:22:51.078+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39238","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8cd23e3a-9f5d-40d4-be7b-76f1a4daa1af"}},"connectionId":77,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:51.078+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39254","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"89bc418a-8bbe-42b9-81fb-1d848ee573e2"}},"connectionId":78,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:51.082+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn77","msg":"client metadata","attr":{"remote":"127.0.0.1:39238","client":"conn77","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.082+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn77","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:51.083+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn78","msg":"client metadata","attr":{"remote":"127.0.0.1:39254","client":"conn78","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.083+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn78","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:51.322+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn77","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39238","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":240601,"summary":{"0":{"step":1,"step_total":2,"duration_micros":42},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.323+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn78","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39254","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":239880,"summary":{"0":{"step":1,"step_total":2,"duration_micros":26},"1":{"step":2,"step_total":2,"duration_micros":10}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:51.327+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn78","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":4}}
+
+{"t":{"$date":"2026-11-24T02:22:51.341+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn75","msg":"Connection ended","attr":{"remote":"127.0.0.1:39218","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"a2d71dd1-d443-4055-84f6-36b4249e2a5f"}},"connectionId":75,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:51.342+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn78","msg":"Connection ended","attr":{"remote":"127.0.0.1:39254","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"89bc418a-8bbe-42b9-81fb-1d848ee573e2"}},"connectionId":78,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:51.342+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn77","msg":"Connection ended","attr":{"remote":"127.0.0.1:39238","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8cd23e3a-9f5d-40d4-be7b-76f1a4daa1af"}},"connectionId":77,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:51.342+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn76","msg":"Connection ended","attr":{"remote":"127.0.0.1:39224","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"db704f40-3e12-48e0-9a2b-20bbf7700f8b"}},"connectionId":76,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:52.131+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39270","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cdaa859f-91a4-4bd0-ab09-5a4ba063e466"}},"connectionId":79,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:52.134+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn79","msg":"client metadata","attr":{"remote":"127.0.0.1:39270","client":"conn79","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.134+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn79","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:39270","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.139+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39286","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5d6e250f-46ee-4ac3-8473-17875588cd11"}},"connectionId":80,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:52.140+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn80","msg":"client metadata","attr":{"remote":"127.0.0.1:39286","client":"conn80","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.140+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn80","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:52.147+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn80","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39286","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7300,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.160+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn80","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:52.181+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39298","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"71b9a87d-5055-4a73-bd78-05c061712f55"}},"connectionId":81,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:52.181+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:39312","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8d67e95f-c4f5-4d8f-b0fc-92a35b4d3a71"}},"connectionId":82,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:52.184+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn81","msg":"client metadata","attr":{"remote":"127.0.0.1:39298","client":"conn81","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.184+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn81","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:52.185+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn82","msg":"client metadata","attr":{"remote":"127.0.0.1:39312","client":"conn82","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.186+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn82","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:52.444+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn81","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39298","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":259598,"summary":{"0":{"step":1,"step_total":2,"duration_micros":30},"1":{"step":2,"step_total":2,"duration_micros":16}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.444+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn82","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:39312","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":258875,"summary":{"0":{"step":1,"step_total":2,"duration_micros":27},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:52.446+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn82","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
+
+{"t":{"$date":"2026-11-24T02:22:52.458+00:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn82","msg":"Profiler settings changed","attr":{"from":{"level":2,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"to":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-24T02:22:52.482+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn79","msg":"Connection ended","attr":{"remote":"127.0.0.1:39270","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"cdaa859f-91a4-4bd0-ab09-5a4ba063e466"}},"connectionId":79,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:52.483+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn82","msg":"Connection ended","attr":{"remote":"127.0.0.1:39312","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"8d67e95f-c4f5-4d8f-b0fc-92a35b4d3a71"}},"connectionId":82,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:52.483+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn81","msg":"Connection ended","attr":{"remote":"127.0.0.1:39298","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"71b9a87d-5055-4a73-bd78-05c061712f55"}},"connectionId":81,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:52.483+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn80","msg":"Connection ended","attr":{"remote":"127.0.0.1:39286","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5d6e250f-46ee-4ac3-8473-17875588cd11"}},"connectionId":80,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:53.258+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35032","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2a37d2ae-8863-4051-836d-69da64c8f382"}},"connectionId":83,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:53.262+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn83","msg":"client metadata","attr":{"remote":"127.0.0.1:35032","client":"conn83","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.262+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn83","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:35032","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.267+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35042","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1885a582-6e2b-4bf9-bf43-ef4107bd15f2"}},"connectionId":84,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:53.268+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn84","msg":"client metadata","attr":{"remote":"127.0.0.1:35042","client":"conn84","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.268+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn84","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:53.276+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn84","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:35042","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7527,"summary":{"0":{"step":1,"step_total":2,"duration_micros":63},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.288+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn84","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:53.431+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35058","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9b9f49d6-7a4a-42b0-9440-10629c47e798"}},"connectionId":85,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:53.431+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f1eab10-abf6-40d3-a144-2f758f46f751"}},"connectionId":86,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:53.437+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn85","msg":"client metadata","attr":{"remote":"127.0.0.1:35058","client":"conn85","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.437+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn85","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:53.438+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn86","msg":"client metadata","attr":{"remote":"127.0.0.1:35072","client":"conn86","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.438+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn86","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:53.451+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn84","msg":"Connection ended","attr":{"remote":"127.0.0.1:35042","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"1885a582-6e2b-4bf9-bf43-ef4107bd15f2"}},"connectionId":84,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:53.451+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn83","msg":"Connection ended","attr":{"remote":"127.0.0.1:35032","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"2a37d2ae-8863-4051-836d-69da64c8f382"}},"connectionId":83,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:53.453+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn85","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:35058","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":16711,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":28}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.454+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn86","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:35072","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":16093,"summary":{"0":{"step":1,"step_total":2,"duration_micros":29},"1":{"step":2,"step_total":2,"duration_micros":9}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:53.454+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn85","msg":"Connection ended","attr":{"remote":"127.0.0.1:35058","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9b9f49d6-7a4a-42b0-9440-10629c47e798"}},"connectionId":85,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:53.455+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn86","msg":"Connection ended","attr":{"remote":"127.0.0.1:35072","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"9f1eab10-abf6-40d3-a144-2f758f46f751"}},"connectionId":86,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-24T02:22:54.240+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35084","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"c9742d71-4fab-4029-986c-fc3f50561409"}},"connectionId":87,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-24T02:22:54.244+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn87","msg":"client metadata","attr":{"remote":"127.0.0.1:35084","client":"conn87","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.244+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn87","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:35084","doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.249+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35094","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"e354152c-017c-4573-ae14-b38e9cfbec0d"}},"connectionId":88,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-24T02:22:54.250+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn88","msg":"client metadata","attr":{"remote":"127.0.0.1:35094","client":"conn88","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.250+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn88","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:54.258+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn88","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:35094","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":7594,"summary":{"0":{"step":1,"step_total":2,"duration_micros":32},"1":{"step":2,"step_total":2,"duration_micros":19}}}},"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.271+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn88","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":12}}
+
+{"t":{"$date":"2026-11-24T02:22:54.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35106","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"53809c16-f7b6-42e8-bcc1-0f482159825d"}},"connectionId":89,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-24T02:22:54.424+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:35120","isLoadBalanced":false,"uuid":{"uuid":{"$uuid":"5fee4881-55ee-4a9b-b385-a1179c0ad125"}},"connectionId":90,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-24T02:22:54.429+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn89","msg":"client metadata","attr":{"remote":"127.0.0.1:35106","client":"conn89","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.429+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn89","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-24T02:22:54.430+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn90","msg":"client metadata","attr":{"remote":"127.0.0.1:35120","client":"conn90","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.14.3"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.14.3"},"platform":"Node.js v22.23.5, LE","os":{"name":"linux","architecture":"x64","version":"6.18.44-fc-v819","type":"Linux"}}}}
+
+{"t":{"$date":"2026-11-24T02:22:54.430+00:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn90","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
